@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR Architects</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-lg font-bold">
+                    <a href="#home" class="text-gray-800 hover:text-gray-600">Design Architects</a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#projects" class="text-gray-600 hover:text-gray-800">Projects</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-800">About</a>
+                    <a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="relative bg-cover bg-center h-screen" style="background-image: url('https://media.istockphoto.com/id/1521709857/photo/modern-bank-towers-in-frankfurt-at-late-afternoon-captured-in-wide-angle.webp?a=1&b=1&s=612x612&w=0&k=20&c=VuAkcO0s-gxLNq9K2F7a42yyFEfCbVfGfyOWkv6Juu4=');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="absolute inset-0 flex items-center justify-center text-center text-white">
+            <div>
+                <h1 class="text-5xl font-bold"><span class="bg-black bg-opacity-75 p-2">DESIGN</span> Architects</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <main class="max-w-7xl mx-auto p-6">
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-12">
+            <h2 class="text-3xl font-bold border-b-2 border-gray-300 pb-2 mb-8">Projects</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="relative group">
+                    <img src="https://www.w3schools.com/w3images/house5.jpg" alt="Summer House" class="w-full h-64 object-cover rounded-lg shadow-lg">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span class="text-white text-lg font-semibold">Summer House</span>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <img src="https://www.w3schools.com/w3images/house2.jpg" alt="Brick House" class="w-full h-64 object-cover rounded-lg shadow-lg">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span class="text-white text-lg font-semibold">Brick House</span>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <img src="https://www.w3schools.com/w3images/house3.jpg" alt="Renovated" class="w-full h-64 object-cover rounded-lg shadow-lg">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span class="text-white text-lg font-semibold">Renovated</span>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="Barn House" class="w-full h-64 object-cover rounded-lg shadow-lg">
+                    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                        <span class="text-white text-lg font-semibold">Barn House</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-12 bg-gray-50">
+            <h2 class="text-3xl font-bold border-b-2 border-gray-300 pb-2 mb-8">About</h2>
+            <p class="text-gray-600 leading-loose mb-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="grid md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" class="w-32 h-32 mx-auto rounded-full shadow-lg">
+                    <h3 class="text-lg font-semibold mt-4">John Doe</h3>
+                    <p class="text-gray-600">CEO & Founder</p>
+                    <p class="text-gray-600 mt-2">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <button class="mt-4 bg-gray-200 text-gray-700 py-2 px-4 rounded">Contact</button>
+                </div>
+                <div class="text-center">
+                    <img src="https://www.w3schools.com/w3images/team1.jpg" alt="Jane" class="w-32 h-32 mx-auto rounded-full shadow-lg">
+                    <h3 class="text-lg font-semibold mt-4">Jane Doe</h3>
+                    <p class="text-gray-600">Architect</p>
+                    <p class="text-gray-600 mt-2">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <button class="mt-4 bg-gray-200 text-gray-700 py-2 px-4 rounded">Contact</button>
+                </div>
+                <div class="text-center">
+                    <img src="https://www.w3schools.com/w3images/team3.jpg" alt="Mike" class="w-32 h-32 mx-auto rounded-full shadow-lg">
+                    <h3 class="text-lg font-semibold mt-4">Mike Ross</h3>
+                    <p class="text-gray-600">Architect</p>
+                    <p class="text-gray-600 mt-2">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <button class="mt-4 bg-gray-200 text-gray-700 py-2 px-4 rounded">Contact</button>
+                </div>
+                <div class="text-center">
+                    <img src="https://www.w3schools.com/w3images/team4.jpg" alt="Dan" class="w-32 h-32 mx-auto rounded-full shadow-lg">
+                    <h3 class="text-lg font-semibold mt-4">Dan Star</h3>
+                    <p class="text-gray-600">Architect</p>
+                    <p class="text-gray-600 mt-2">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    <button class="mt-4 bg-gray-200 text-gray-700 py-2 px-4 rounded">Contact</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-12">
+            <h2 class="text-3xl font-bold border-b-2 border-gray-300 pb-2 mb-8">Contact</h2>
+            <p class="text-gray-600 mb-8">Let's get in touch and talk about your next project.</p>
+            <form action="/action_page.php" target="_blank" class="space-y-4">
+                <input type="text" placeholder="Name" required name="Name" class="w-full p-2 border border-gray-300 rounded">
+                <input type="email" placeholder="Email" required name="Email" class="w-full p-2 border border-gray-300 rounded">
+                <input type="text" placeholder="Subject" required name="Subject" class="w-full p-2 border border-gray-300 rounded">
+                <textarea placeholder="Comment" required name="Comment" class="w-full p-2 border border-gray-300 rounded"></textarea>
+                <button type="submit" class="w-full py-2 bg-black text-white rounded">SEND MESSAGE</button>
+            </form>
+        </section>
+
+        <!-- Map Section -->
+        <section class="py-12">
+            <img src="https://www.w3schools.com/w3images/map.jpg" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-4">
+        <p>Devloped by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="text-green-500 hover:underline"></a>Lalit</p>
+    </footer>
+
+</body>
+</html>
